@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  pii-redaction-api:
+    build: .
+    ports:
+      - "80:80"
